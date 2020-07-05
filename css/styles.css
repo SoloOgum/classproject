@@ -1,0 +1,183 @@
+.hero-image {
+    /* background image is not loading: */
+/* background: url("/img/3.png") no-repeat center !important; */
+ height: 70vh;
+ width: 100vw;
+/* background-position: center; */
+/* background-repeat: no-repeat;  */
+background-size: 100% 100%;
+/* need to use this as a placeholder due to background image not loading; */
+background-color: blue;
+/* z-index: 20; */
+    
+}
+
+.bluebox {
+    height: 4vh;
+    width: 100%;
+    background-color: navy;
+}
+
+.buttonflex {
+    display: flex;
+}
+
+nav {
+    width: 100vw;
+}
+
+
+
+.navbar {
+    background-color: white;
+}
+
+.navborder {
+    border-top: 1px solid gray;
+}
+
+.graytext {
+    font-size: 9px;
+    color: gray;
+}
+
+.nav-link {
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.navtext {
+    color: green;
+}
+
+.sr-only {
+    color: yellow;
+} 
+
+
+.bluebox2 {
+    height: 26vh;
+    width: 50%;
+    left: 25%;
+    top: 73%;
+    background-color: navy;
+    position: absolute;
+    border-radius: 2%;
+    display: flex;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+.box2text {
+    height: 15vh;
+    width: 12vw;
+    font-weight: bold;
+    /* border: 2px solid white;  */
+}
+
+.innerbox1 {
+    height: 13vh;
+    width: 8vw;
+border-radius: 6%;
+margin: .6rem;
+}
+
+.color1 {
+    background-color: #5787F6;
+}
+
+.color2 {
+    background-color: #BBD278;
+}
+
+
+.color3 {
+    background-color: #EF7873;
+}
+
+/* .buttoncolor {
+background-color: #F8C641;
+} */
+
+.fas-yellow {
+    color:#ffc107;
+}
+
+@media only screen and (max-width: 786px) {
+
+    .hero-image {
+height: 75vh;
+    }
+
+    .bluebox {
+        height: 12vh;
+    }
+
+    .bluebox2 {
+        position: relative;
+        width: 100vw;
+        top: 75%;
+        left: 0%;
+        padding: 1rem;
+
+    }
+
+    .box2text {
+        width: 20vw;
+    }
+
+    .innerbox1 {
+        width: 20vw;
+        margin: .2rem;
+    }
+
+/* 
+    .buttonflex {
+        display: inline-block;
+    } */
+    
+}
+
+@media only screen and (max-width: 450px) {
+
+    .hero-image {
+        height: 80vh;
+            }
+        
+    .bluebox2 {
+        height: 60vh;
+        display: inline-block;
+    }
+
+    .box2text {
+        width: 20rem;
+        font-size: 45px;
+    }
+
+    .innerbox1 {
+        width: 19rem;
+        margin-left: 0;
+    }
+
+    .innerbox2 {
+        width: 15rem;
+        margin-left: 0;
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+
+    .bluebox2 {
+width: 70vw;
+left: 15%;
+    }
+
+    .innerbox1 {
+        width: 20vw;
+    }
+
+}
+
+
